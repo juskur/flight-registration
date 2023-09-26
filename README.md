@@ -23,6 +23,7 @@ Build all modules and run all the tests
 >
 ###Build docker image for spring boot application
 > gradlew dockerBuild
+> 
 ###Run image as a container
 > gradlew dockerRun
 > 
