@@ -1,0 +1,6 @@
+rootProject.name = 'edu.flightregistration'
+include 'billofmaterials'
+include 'backendApplication:core'
+include 'backendApplication:presentation:rest'
+include 'backendApplication:deployable:flightRegistrationApi'
+
