@@ -29,6 +29,7 @@ Build all modules and run all the tests
 > 
 When spring boot starts inside container Swagger UI
 is accessible at default url http://localhost:8080/swagger-ui/index.htm
+
 ###Stop container and remove it
 > gradlew dockerStopAndRemoveContainer
 > 
