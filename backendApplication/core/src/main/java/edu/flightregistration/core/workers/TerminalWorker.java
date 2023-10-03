@@ -13,7 +13,7 @@ public class TerminalWorker {
     private final Terminal terminal;
     private final TerminalAssignmentService terminalAssignmentService;
 
-    @Scheduled(fixedRateString = "${terminal-service.worker-rate:200}")
+    @Scheduled(fixedDelayString = "${terminal-service.worker-rate:200}")
     public void assignFlightToTerminal() {
         terminalAssignmentService.assignFlight(terminal);
     }
